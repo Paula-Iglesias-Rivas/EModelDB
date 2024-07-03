@@ -27,7 +27,7 @@ the matrix. You can also download it without doing this, by selecting it and cli
 To open the hyperlink you have to select the model and then click the right mouse button.
 
 Future updates to the database will involve adding new models and possibly modifying the schema to accommodate additional types of data 
-relevant to protein evolution research
+relevant to protein evolution research. The interface will also undergo changes in order to make it more useful. 
 If you have any questions, please send an email to:
 
 p.rivas@udc.es
