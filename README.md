@@ -15,7 +15,7 @@ it is merely informative.
 The graphical interface works thanks to the models.db file. As a requirement, it is necessary to have
 Python and Streamlit installed and the libraries associated with the code, which are indicated at the beginning of the code.  
 
-The interface can be executed from Python as well as from PowerSell by putting from the folder containing the files 
+The interface can be executed from the terminal by putting from the folder containing the files 
 "streamlit run interface_EModelDB". Once the interface is executed, a window appears with all the models present in
 the database together with other characteristics such as: the date, author(s), a link to the article, the taxonomic 
 group to which the model is addressed and comments that were considered necessary to be made.  The models can be 
