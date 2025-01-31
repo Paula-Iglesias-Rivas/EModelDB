@@ -10,7 +10,9 @@ EModelDB is distributed with several files, including the database itself (model
 
 As a requirement, it is necessary to have Python and Streamlit installed and the libraries associated with the code (indicated at the beginning of the code).
 If they are not installed, the installation can be performed in the Linux command line through the following commands,
+
 pip install pandas
+
 pip install streamlit
 
 
