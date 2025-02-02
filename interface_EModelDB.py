@@ -66,7 +66,7 @@ def query_database(author, name_model, year, taxonomic_group, matrix_type, comme
     if name_model:
         query += f" AND lower(name) LIKE '%{name_model.lower()}%'"
     if year:
-        query += f" AND strftime('%Y', publication_date) = '{year}'"
+        query += f" AND publication_date LIKE '{year}%'"
     if taxonomic_group:
         query += f" AND lower(taxonomic_group) LIKE '%{taxonomic_group.lower()}%'"
     if matrix_type:
