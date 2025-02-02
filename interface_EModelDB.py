@@ -169,7 +169,12 @@ header_cols[5].markdown("<div class='custom-header'>References</div>", unsafe_al
 # Display table row by row with aligned elements
 for i, row in df_results.iterrows():
     cols = st.columns([2, 4, 4, 5, 5, 4])  # Adjust column widths
-    selected_rows[row['Name']] = cols[0].checkbox("", key=f"select_{i}", value=selected_rows[row['Name']])  # Column for checkbox
+    selected_rows[row['Name']] = cols[0].checkbox(
+        "Seleccionar este modelo",  
+        key=f"select_{i}",
+        value=selected_rows[row['Name']],
+        label_visibility="collapsed"  
+    )
     cols[1].write(row['Name'])
     cols[2].write(row['MatrixType'])
     cols[3].write(row['TaxonomicGroup'])
