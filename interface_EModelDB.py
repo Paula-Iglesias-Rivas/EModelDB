@@ -212,4 +212,4 @@ if st.sidebar.button("Clear Filters"):
 
 # Contact section
 st.sidebar.title("Contact Us")
-st.sidebar.write("If you have any complaints or suggestions, please contact us at: [paula.iglesias.rivas@uvigo.es](mailto:paula.iglesias.rivas@uvigo.es)")
+st.sidebar.write("If you have any issues, please contact us: [paula.iglesias.rivas@uvigo.es](mailto:paula.iglesias.rivas@uvigo.es)")
