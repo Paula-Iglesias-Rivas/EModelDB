@@ -180,6 +180,16 @@ for i, row in df_results.iterrows():
     cols[3].write(row['TaxonomicGroup'])
     cols[4].write(row['Comments'])
     cols[5].markdown(row['References'], unsafe_allow_html=True)
+    with st.expander(f"View matrix for {row['Name']} model"):
+        conn = get_connection()
+        cursor = conn.cursor()
+        cursor.execute('SELECT binary_matrix FROM SUBSTITUTION_MATRIX WHERE model_id = ?', (row['Name'],))
+        matrix_data = cursor.fetchone()
+        conn.close()
+        if matrix_data and matrix_data[0]:
+            st.text(matrix_data[0])
+        else:
+            st.warning(f"No matrix file found for {row['Name']} model")
 
 
 # "Select All" button to select all rows (place it at the end)
