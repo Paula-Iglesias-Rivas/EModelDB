@@ -8,8 +8,11 @@ EModelDB is a database of empirical substitution models of protein evolution, in
 
 EModelDB is distributed with several files, including the database itself (models.db) and the folder with the matrices of the empirical substitution models (data) and, the graphical user interface (interface_EModelDB.py). 
 
+The interface can be executed either remotely by accessing the following link:
+https://emodeldb.streamlit.app/
+or locally.
  
-As a requirement, it is necessary to have Python (https://www.python.org/downloads/) and Streamlit installed and the libraries associated with the code (indicated at the beginning of the code).
+As a requirement to run the interface locally, it is necessary to have Python (https://www.python.org/downloads/) and Streamlit installed and the libraries associated with the code (indicated at the beginning of the code).
 If they are not installed, the installation can be performed in the Linux command line through the following commands,
 ````bash
 pip install pandas
@@ -21,9 +24,9 @@ Next, the graphical user interface can be executed from the command line by typi
 streamlit run interface_EModelDB.py
 ````
 
-Once the interface is executed, a window should appear displaying the database and the characteristics of every models (publication year, author(s), reference including link to the publication, taxonomic group and informative comments. The models can be filtered according to some of these characteristics.
+Once the interface is executed, a window should appear displaying the database and the characteristics of every models (publication year, author(s), reference including link to the publication, taxonomic group informative comments and a dropdown menu to preview the matrix). The models can be filtered according to some of these characteristics.
 
-To download the matrix (or matrices), just select the desired model/s and click on the download button shown at the bottom.
+To download the matrix (or matrices), just select the desired model/s and click on the download button shown at the bottom or click Select All and the download button.
 
 
 The framework is distributed under the General Public License (GPL), which is also distributed.
