@@ -180,7 +180,7 @@ for i, row in df_results.iterrows():
     cols[3].write(row['TaxonomicGroup'])
     cols[4].write(row['Comments'])
     cols[5].markdown(row['References'], unsafe_allow_html=True)
-    with st.expander(f"View matrix for {row['Name']} model"):
+    with st.expander(f"View {row['Name']} matrix"):
         conn = get_connection()
         cursor = conn.cursor()
         cursor.execute('SELECT binary_matrix FROM SUBSTITUTION_MATRIX WHERE model_id = ?', (row['Name'],))
