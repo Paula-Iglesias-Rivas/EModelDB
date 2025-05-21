@@ -24,7 +24,7 @@ Next, the graphical user interface can be executed from the command line by typi
 streamlit run interface_EModelDB.py
 ````
 
-Once the interface is executed, a window should appear displaying the database and the characteristics of every models (publication year, author(s), reference including link to the publication, taxonomic group informative comments and a dropdown menu to preview the matrix). The models can be filtered according to some of these characteristics.
+Once the interface is executed, a window should appear displaying the database and the characteristics of every models (publication year, author(s), reference including link to the publication, taxonomic group, informative comments and a dropdown menu to preview the matrix). The models can be filtered according to some of these characteristics.
 
 To download the matrix (or matrices), just select the desired model/s and click on the download button shown at the bottom or click Select All and the download button.
 
