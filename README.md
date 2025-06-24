@@ -17,6 +17,7 @@ If they are not installed, the installation can be performed in the Linux comman
 ````bash
 pip install pandas
 pip install streamlit
+pip install markdown
  ````
 
 Next, the graphical user interface can be executed from the command line by typing at the folder containing the code files,
