@@ -1,7 +1,7 @@
 ### EModelDB ###
 A database of empirical substitution models of protein evolution.
 
-Paula Iglesias-Rivas, Roberto Del Amparo, Javier A Cabaleiro, Miguel Arenas
+Iglesias-Rivas P, Del Amparo R, Cabaleiro JA, Arenas M. 2025. Empirical substitution models of protein evolution: database, relationships, and modeling considerations. Database, 2025, baaf052
 
 Substitution models of evolution describe the relative rates of fixation of mutations and are traditionally used in phylogenetics.
 EModelDB is a database of empirical substitution models of protein evolution, including those based on phylogenetic and score matrices, and it includes their classification according to several filters. 
